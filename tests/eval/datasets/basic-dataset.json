@@ -1,0 +1,32 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "recipe_discovery",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Find me a vegetarian pasta recipe with garlic and olive oil."}]
+      }
+    },
+    {
+      "eval_case_id": "recipe_scaling",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Scale 8 oz spaghetti, 4 cloves garlic, and 2 tbsp olive oil from 2 servings to 6 servings."}]
+      }
+    },
+    {
+      "eval_case_id": "pantry_add",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Add 2 bottles of Extra Virgin Olive Oil to my pantry."}]
+      }
+    },
+    {
+      "eval_case_id": "favorites_save",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Save Garlic Butter Pasta to my favorites."}]
+      }
+    }
+  ]
+}
